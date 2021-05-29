@@ -166,8 +166,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/psykd"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/magiclmush")],
                      [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/tz-ash/TG-BOT")], 
                      [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://t.me/kid_of_telegram")]]))
-                     
-
+                     [InlineKeyboardButton(text="❣️HELP&COMMANDS❣️", url="https://t.me/MissAva_bot?start=help")
+                     )
+"
     else:
         update.effective_message.reply_text("YES I AM ALIVE🤔...")
 
