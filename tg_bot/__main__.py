@@ -17,7 +17,7 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-NESRI_IMG = "https://telegra.ph/file/da3cc3f6c857ef60aab08.jpg"
+NESRI_IMG = "https://telegra.ph/file/b24bf956867a1df4fe752.jpg"
 
 
 
@@ -25,7 +25,7 @@ NESRI_IMG = "https://telegra.ph/file/da3cc3f6c857ef60aab08.jpg"
 
 PM_START_TEXT = """
 
-Hello👋 {}, my name is {}! I am maintained by [THIS LEGEND](tg://user?id={}) I am a Pro admin bot. 
+Hello👋 {username}, my name is {Ava}! I am maintained by [THIS LEGEND](tg://user?id={kid_of_telegram}) I am a Pro admin bot. 
 As usual I am now with less updates.But soon new feautures will come soon. My new updates will be updated on my updates channel and if you have any doubts about me join my support group and ask their about my queries you have.. 
 
 
@@ -41,7 +41,7 @@ As usual I am now with less updates.But soon new feautures will come soon. My ne
 """
 
 HELP_STRINGS = """
-Hello there! I am *{}*.
+Hello there! I am *{Ava}*.
 I am a Pro group manager bot with a fun extras! Take a look at the following for an idea of some of some of my feautures \
 Master head bot. 
 *Main* commands available:
@@ -163,9 +163,9 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
-                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEM_BETA"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMBETA")],
-                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/JINN-OF-TG/TG-BOT")], 
-                     [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://youtu.be/q92-LTGwn9k")]]))
+                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/psykd"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/magiclmush")],
+                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/tz-ash/TG-BOT")], 
+                     [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://t.me/kid_of_telegram")]]))
                      
 
     else:
